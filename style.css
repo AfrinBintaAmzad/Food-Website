@@ -1,0 +1,29 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+}
+h1{
+    font-size: 60px;
+}
+.change-color{
+    color: rgb(228, 59, 115);
+}
+.flexible-container-one{
+    display: flex;
+}
+.half-land{
+    width: 50%;
+    padding: 5%;
+}
+.half-land img{
+    width: 90%;
+    height: auto;
+}
+.orderfood-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgba(223, 39, 69, 0.651),rgba(70, 70, 218, 0.219));
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    border-radius: 40px;
+}
