@@ -5,6 +5,10 @@ body{
 h1{
     font-size: 60px;
 }
+    h2{
+        font-size: 40px;
+        color: rgb(94, 94, 94);
+    }
 .change-color{
     color: rgb(228, 59, 115);
 }
@@ -27,3 +31,20 @@ h1{
     font-weight: 700;
     border-radius: 40px;
 }
+.flexible-container-two{
+    display: flex;
+    background-image: url(/images/Frame\ 59\ \(1\).png);
+    background-size: cover;
+    width: 1349px;
+    height: 500px;
+    
+}
+.checkprofile-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgba(223, 39, 69, 0.651),rgba(70, 70, 218, 0.219));
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    border-radius: 40px;
+}
+
