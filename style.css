@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 60px;
 }
-    h2{
-        font-size: 40px;
-        color: rgb(94, 94, 94);
-    }
+h2{
+    font-size: 40px;
+    color: rgb(94, 94, 94);
+}
+h3{
+    color:rgb(94, 94, 94); ;
+}
 .change-color{
     color: rgb(228, 59, 115);
 }
@@ -26,7 +29,7 @@ h1{
 .orderfood-button{
     text-decoration: none;
     background-image: linear-gradient(rgba(223, 39, 69, 0.651),rgba(70, 70, 218, 0.219));
-    padding: 10px 20px;
+    padding: 20px 30px;
     color: rgb(0, 0, 0);
     font-weight: 700;
     border-radius: 40px;
@@ -42,9 +45,81 @@ h1{
 .checkprofile-button{
     text-decoration: none;
     background-image: linear-gradient(rgba(223, 39, 69, 0.651),rgba(70, 70, 218, 0.219));
-    padding: 10px 20px;
+    padding: 20px 30px;
     color: rgb(0, 0, 0);
     font-weight: 700;
     border-radius: 40px;
+}
+.head{
+    text-align: center;
+    color: rgb(94, 94, 94);
+}
+.head2{
+    text-align: center;
+}
+.one{
+    height: 460px;
+    margin:2%;
+    padding: 2%;
+    box-shadow: 5px 5px 30px rgb(202, 200, 190);
+    border-radius: 20px;
+    border-left: 10px ;    
+}
+.flexible-container{
+    display: flex;
+    
+}
+.one img{
+    height: 200px;
+    border-radius: 20px;
+    width:100%;
+}
+.one h2{
+    text-align: center;
+}
+.one p{
+    text-align: justify;
+}
+.color{
+    color: rgba(247, 126, 146, 0.651);
+}
+footer{
+    text-align: center;
+    background-color: black;
+    height: 200px;
+}
+footer h4{
+    color: rgb(255, 249, 249);
+    font-weight: 100;
+}
+footer p{
+    color: white;
+}
+.order-container{
+    display: flex;
+    box-shadow: 5px 5px 30px rgb(202, 200, 190);
+    border-radius: 30px;
+}
+.order1{
+    margin: 10%;
+}
+.order1 button{
+        background-color: rgba(224, 106, 123, 0.884);
+        color: #FFFFFF;
+        padding: 10px;
+        border-radius: 20px;
+        font-size: 20px;
+        width: 150px;
+        height: 80px;
+        
+}
+.three{
+    padding-bottom:  5%;
+    padding-top: 5%;
+    margin: 2% ;
+}
+.connect{
+    text-align: center;
+    color: rgb(94, 94, 94); 
 }
 
